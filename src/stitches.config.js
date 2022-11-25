@@ -23,5 +23,9 @@ export const {
 });
 export const globalStyles = globalCss({
   "*": { margin: 0, padding: 0, boxSizing: "border-box" },
-  body: { fontSize: 18, fontFamily: "Rubik, sans-serif" },
+  body: {
+    fontSize: 18,
+    fontFamily: "Rubik, sans-serif",
+    backgroundColor: "$VeryDarkBlue",
+  },
 });
